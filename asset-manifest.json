@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/atlassys-tz/static/css/main.7b7d3df2.css",
+    "main.js": "/atlassys-tz/static/js/main.621836e5.js",
+    "static/media/profilePic.png": "/atlassys-tz/static/media/profilePic.2b89233e0a6b7ffe18bd.png",
+    "static/media/bankLogo.svg": "/atlassys-tz/static/media/bankLogo.7181c324d859cb07668623ceda43cf95.svg",
+    "static/media/settings 1.svg": "/atlassys-tz/static/media/settings 1.3099b97e8224a3b45ec80dff0514b53e.svg",
+    "static/media/service 1.svg": "/atlassys-tz/static/media/service 1.0253eac9aedeac8b9d7b874d03aaf5b1.svg",
+    "static/media/loan 1.svg": "/atlassys-tz/static/media/loan 1.4db343936e8b076ed13cb23fbb26afc1.svg",
+    "static/media/transfer 1.svg": "/atlassys-tz/static/media/transfer 1.cab3a662abce6086eee84409d7385a19.svg",
+    "static/media/economic-investment.svg": "/atlassys-tz/static/media/economic-investment.3aa41fd4beeee371f418330e3bd8868f.svg",
+    "static/media/econometrics.svg": "/atlassys-tz/static/media/econometrics.01a76b3148f5147ebdff85ef5fb350da.svg",
+    "static/media/002-notification-1.svg": "/atlassys-tz/static/media/002-notification-1.8680dfecc1ea7acd4d23f00c2cffadf7.svg",
+    "static/media/user 3 1.svg": "/atlassys-tz/static/media/user 3 1.b9cfda34c80356e035556d7c5c5f4158.svg",
+    "static/media/credit-card.svg": "/atlassys-tz/static/media/credit-card.35b56846a6d5655468013918b7d29c79.svg",
+    "static/media/settings solid 1.svg": "/atlassys-tz/static/media/settings solid 1.dd9be44acf762862026a693bff9fe0e5.svg",
+    "static/media/home.svg": "/atlassys-tz/static/media/home.0d7683e8116cfd9b22829f8052089b8c.svg",
+    "static/media/magnifying-glass 1.svg": "/atlassys-tz/static/media/magnifying-glass 1.99e5a2a1a760ad1ffd01ba90248a056d.svg",
+    "index.html": "/atlassys-tz/index.html",
+    "static/media/selectorDown.svg": "/atlassys-tz/static/media/selectorDown.a72e203f6e0dab35622842a2a4185492.svg",
+    "static/media/selector.svg": "/atlassys-tz/static/media/selector.8d0debdb2d631b437f86f2cfe1c5d9a9.svg",
+    "main.7b7d3df2.css.map": "/atlassys-tz/static/css/main.7b7d3df2.css.map",
+    "main.621836e5.js.map": "/atlassys-tz/static/js/main.621836e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b7d3df2.css",
+    "static/js/main.621836e5.js"
+  ]
+}
