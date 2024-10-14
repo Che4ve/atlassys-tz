@@ -1,0 +1,38 @@
+.form-element {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+}
+.form-element p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #010209;
+}
+.form-element input {
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #DFEAF2;
+  border-radius: 15px;
+  background-color: transparent;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #010209;
+}
+.form-element input::placeholder {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #8BA3CB;
+  background-color: transparent;
+  border: none;
+}
+.form-element input:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=formElement.css.map */

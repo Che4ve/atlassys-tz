@@ -1,0 +1,70 @@
+.side-menu {
+  position: fixed;
+  height: 100vh;
+  width: 249px;
+  background-color: #FFFFFF;
+  border-right: 1px solid #E6EFF5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.side-menu .bank-logo {
+  position: absolute;
+  padding: 0 0;
+  height: 48px;
+  width: 183px;
+  scale: 1.1;
+  top: 20px;
+  cursor: pointer;
+}
+.side-menu .side-menu-content {
+  position: absolute;
+  left: 44px;
+  top: 131px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+}
+.side-menu .side-menu-content .content-element {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26px;
+  cursor: pointer;
+}
+.side-menu .side-menu-content .content-element p {
+  transition: all 0.4s ease;
+  line-height: 21.78px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #B1B1B1;
+}
+.side-menu .side-menu-content .content-element path {
+  transition: all 0.4s ease;
+  fill: #B1B1B1;
+}
+.side-menu .side-menu-content .content-element .selector {
+  position: absolute;
+  left: -50px;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.side-menu .side-menu-content .content-element:hover .selector {
+  left: -45px;
+  opacity: 1;
+}
+.side-menu .side-menu-content .content-element:hover p {
+  color: #1814F3;
+}
+.side-menu .side-menu-content .content-element:hover path {
+  fill: #1814F3;
+}
+
+/*# sourceMappingURL=sideMenu.css.map */

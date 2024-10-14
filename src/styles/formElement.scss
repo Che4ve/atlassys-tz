@@ -1,0 +1,43 @@
+@mixin showBorder() {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.form-element {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 11px;
+    p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        color: #010209;
+    }
+    input {
+        margin: 0;
+        height: 50px;
+        //max-width: 100%;
+        width: 100%;
+        //min-width: 200px;
+        border: 1px solid #DFEAF2;
+        border-radius: 15px;
+        background-color: transparent;
+        padding-left: 20px;
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        color: #010209;
+        &::placeholder {
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            color: #8BA3CB;
+            background-color: transparent;
+            border: none;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}

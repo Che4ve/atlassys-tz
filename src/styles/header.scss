@@ -1,0 +1,111 @@
+@mixin showBorder() {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+@mixin makeCircle($height) {
+    border-radius: 50%;
+    min-width: $height;
+    height: $height;
+    cursor: pointer;
+}
+
+
+.header {
+    width: auto;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #E6EFF5;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-left: 249px;
+    padding-right: 40px;
+
+    gap: 35px;
+
+    //@include showBorder;
+
+    .main-text {
+        position: absolute;
+        left: 290px;
+        height: 34px;
+        width: 98px;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Inter', sans-serif;
+        color: #343C6A;
+        line-height: 33.89px;
+    }
+
+    .profile-picture {
+        width: 60px;
+        height: 60px;
+        clip-path: circle(50% at 50% 50%);
+        border-radius: 50%;
+        cursor: pointer;
+        img {
+            width: auto;
+            height: 60px;
+        }
+    }
+
+    .notification {
+        @include makeCircle(50px);
+    }
+
+    .settings {
+        @include makeCircle(50px);
+    }
+
+    .search {
+        border-radius: 40px;
+        height: 50px;
+        max-width: 255px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        svg {
+            cursor: pointer;
+            margin-left: 25px;
+        }
+        input {
+
+            height: 80%;
+            line-height: 21.78px;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+            color: #282e37;
+            background-color: transparent;
+            border: none;
+
+            &::placeholder {
+                font-family: 'Inter', sans-serif;
+                color: #8BA3CB;
+                background-color: transparent;
+                border: none;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    & > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F7FA;
+        //@include showBorder;
+    }
+
+}
